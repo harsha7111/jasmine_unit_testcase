@@ -1,0 +1,23 @@
+{
+  "name": "simplecalculator",
+  "version": "1.0.0",
+  "description": "spies create test doubles and help us isolate dependencies for true unit testing.",
+  "main": "main.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "harsha",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine-core": "^3.5.0",
+    "karma": "^5.0.9",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-coverage": "^2.0.2",
+    "karma-jasmine": "^3.3.1",
+    "karma-jasmine-matchers": "^4.0.2",
+    "puppeteer": "^3.3.0"
+  },
+  "dependencies": {}
+}

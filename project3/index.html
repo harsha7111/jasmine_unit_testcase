@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simple Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class='body'>
+        <h1 class='title'>Simple Calculator</h1>
+        <input  class='input' type='text' placeholder="Enter operation" onchange="calculate(this.value)">
+        <div class='result-container'>
+            <div class='title'>Result</div>
+            <span id='result'></span>
+        </div>
+        <div class='version'>Version<span id='version'></span></div>
+        <script src="calculator.js"></script>
+        <script src="main.js"></script>
+        <script>showVersion()</script>
+    </body>
+</html>
